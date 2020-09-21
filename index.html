@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Dominik und Eva</title>
+	<h1>Javascript Schleifen </h1>
+</head>
+<body>
+	<script type="text/javascript">
+		
+		var temperature = Math.floor((Math.random()*50)-5);
+		document.write(temperature + "<br>");
+
+
+if (temperature <= 10) {
+   document.write("Das Wetter ist kalt" + "<br>" + '<img src="minusgrade.jpeg">')
+} else if (temperature <= 32) {
+   document.write("Das Wetter ist mäßig" + "<br>" + '<img src="maessig.jpeg">')
+} else {
+	document.write("Das Wetter ist heiß" + "<br>" + '<img src="sonnig.jpeg">')
+}
+
+	</script>
+
+</body>
+</html>
